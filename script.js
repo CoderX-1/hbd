@@ -4,7 +4,7 @@ import { MotionPathPlugin } from "https://cdn.skypack.dev/gsap/MotionPathPlugin"
 
 gsap.registerPlugin(MotionPathPlugin);
 
-const letters = ['WISHING','YOU','A','HAPPY', 'BIRTH','DAY','TO','MAMI',];
+const letters = ['WISHING','YOU','A','HAPPY', 'BIRTH','DAY','TO','MAMI'];
 
 new Those3DTexts();
 
@@ -12,7 +12,7 @@ const STYLE_COUNT = 16;
 const FONT_COUNT = 4;
 const BOUNCE_DURATION = 1.3;
 const BOUNCE_HEIGHT = -90;
-const BOUNCE_WOBBLE = 0.75; // lower = more wobble
+const BOUNCE_WOBBLE = 0.75;
 const FLOOR_PARTICLE_COUNT = 1;
 const AIR_PARTICLE_COUNT = 4;
 
