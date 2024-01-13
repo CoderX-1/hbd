@@ -4,7 +4,7 @@ import { MotionPathPlugin } from "https://cdn.skypack.dev/gsap/MotionPathPlugin"
 
 gsap.registerPlugin(MotionPathPlugin);
 
-const letters = ['AM','WISHING','YOU','A','HAPPY', 'BIRTH','DAY','TO','MAMI'];
+const letters = ['WISHING','YOU','A','HAPPY', 'BIRTH','DAY','TO','MAMI',];
 
 new Those3DTexts();
 
