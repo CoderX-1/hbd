@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - PROJECT H2 </title>
+  <title>Happy Birthday To Mami</title>
   <link rel="stylesheet" href="./style.css">
-
+  <style>
+    /* Hide the audio player */
+    audio {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="container"> 
-  <div class="shadow"></div>
-  <div class="squish">
-    <h1 data-3d-text>A</h1>
+  <div class="container"> 
+    <div class="shadow"></div>
+    <div class="squish">
+      <h1 data-3d-text>I</h1>
+    </div>
+    <div class="particles">
+      <div class="floor"></div>
+      <div class="air"></div>
+    </div>
   </div>
-  <div class="particles">
-    <div class="floor"></div>
-    <div class="air"></div>
-  </div>
- </div>
-<!-- partial -->
-  <script type="module" src="./script.js"></script>
 
+  <!-- Birthday Song -->
+  <audio controls autoplay loop>
+    <source src="Happy_birthday_to_you_MIDI(chosic.com).mp3">
+  </audio>
+
+  <!-- partial -->
+  <script type="module" src="./script.js"></script>
 </body>
 </html>
