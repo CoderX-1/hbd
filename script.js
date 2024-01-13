@@ -4,7 +4,7 @@ import { MotionPathPlugin } from "https://cdn.skypack.dev/gsap/MotionPathPlugin"
 
 gsap.registerPlugin(MotionPathPlugin);
 
-const letters = ['WISHING ','YOU','A VERY','BIG','HAPPY', 'BIRTH','DAY','HEMA','NANDITHA ','GARU'];
+const letters = ['AM','WISHING','YOU','A','HAPPY', 'BIRTH','DAY','TO','MAMI'];
 
 new Those3DTexts();
 
@@ -59,7 +59,7 @@ const setupParticles = () => {
 setupParticles()
 
 
-let letterCount = 0
+let letterCount = -1
 
 const nextLetter = () => {
   letterCount ++;
